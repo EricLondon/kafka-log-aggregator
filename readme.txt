@@ -1,3 +1,7 @@
+Kafka streams Java application to aggregate messages using a session window
+
+See Blog post here: http://ericlondon.com/2018/07/26/kafka-streams-java-application-to-aggregate-messages-using-a-session-window.html
+
 # start zookeeper
 zookeeper-server-start $KAFKA_CONF/zookeeper.properties
 
