@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
   compile group: 'org.apache.kafka', name: 'kafka-clients', version: '1.1.0'
-  compile group: 'org.apache.kafka', name: 'kafka-streams', version: '1.1.0'
+  compile group: 'org.apache.kafka', name: 'kafka-streams', version: '3.7.0'
 
   compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.13'
   compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
@@ -27,6 +27,6 @@ dependencies {
 
   testCompile 'org.scala-lang:scala-library:2.13.14'
   testCompile 'org.scalatest:scalatest_2.11:3.0.0'
-  testCompile 'org.apache.kafka:kafka-streams-test-utils:1.1.0'
+  testCompile 'org.apache.kafka:kafka-streams-test-utils:3.7.0'
   testCompile group: 'junit', name: 'junit', version: '4.13.2'
 }
