@@ -20,7 +20,7 @@ dependencies {
   compile group: 'org.apache.kafka', name: 'kafka-clients', version: '3.9.0'
   compile group: 'org.apache.kafka', name: 'kafka-streams', version: '3.9.0'
 
-  compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.16'
+  compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.17'
   compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.17'
 
   compile 'com.google.code.gson:gson:2.12.1'
