@@ -23,7 +23,7 @@ dependencies {
   compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.20'
   compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.20'
 
-  compile 'com.google.code.gson:gson:2.14.0'
+  compile 'com.google.code.gson:gson:2.15.0'
 
   testCompile 'org.scala-lang:scala-library:3.10.0'
   testCompile 'org.scalatest:scalatest_2.11:3.3.0-SNAP4'
